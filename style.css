@@ -59,6 +59,7 @@ nav ul li a:hover{
 /* header end  */
 
 /* hero area start  */
+
 .hero_section{
     width: 100%;
     background-image: url(./images/Background.png);
@@ -119,16 +120,14 @@ nav ul li a:hover{
     background-color: #cf9c04;
     color: white;
 }
-
 /* hero section end  */
 
 /* tickets section start  */
+
 .tickets_section{
     background-color: #F4C430;
     margin: 15px auto;
-    /* border-radius: 16px; */
 }
-
 .tickets_area{
     display: flex;
     justify-content: space-around;
@@ -146,3 +145,34 @@ nav ul li a:hover{
 }
 
 /* tickets section end  */
+
+
+/* cities_section start */
+
+.cities_section h2{
+    text-align: center;
+    padding: 50px 0 30px 0;
+    font-size: 50px;
+}
+.all_cities_box{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 30px 0;
+}
+.all_cities_box ul{
+    list-style-position: inside;
+}
+.cities_text_box h2{
+    font-size: 30px;
+    text-align: start;
+    padding-bottom: 10px;
+}
+.cities_text_box p{
+    line-height: 24px;
+    padding-bottom: 15px;
+}
+.cities_text_box ul li{
+    line-height: 26px;
+}
+/* cities_section end */
