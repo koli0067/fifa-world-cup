@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Host Grotesk", sans-serif;
+}
+
+/* common style  */
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    /* padding: 0 20px;    */
+}
+
+/* header start  */
+
+header{
+    background-color: white;
+}
+.header_area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    padding: 12px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: grey;
+    font-weight: 400;
+    transition: 0.3s ease-in-out;
+}
+nav ul li a:hover{
+    color: black;
+}
+.header_btn button{
+    background-color: #E8BA2E;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 12px;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    transition: 0.3s ease;
+}
+.header_btn button:hover{
+   background-color: #cf9c04;
+   color: white;
+}
+
+/* header end  */
+
+/* hero area start  */
+.hero_section{
+    width: 100%;
+    background-image: url(./images/Background.png);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.hero_section::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.2);
+    border-radius: 16px;
+}
+.hero_area_text{
+    position: relative;
+   padding: 40px;
+   align-items: center;
+   max-width: 40%;
+   z-index: 11;
+   color: white;
+}
+.hero_area_text h1{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+}
+.hero_area_text p{
+   font-size: 16px;
+   padding: 10px 0 40px 0;
+}
+.hero_btn button{
+    background-color: #E8BA2E;
+    padding: 15px 36px 15px 24px;
+    border: none;
+    font-size: 15px;
+    border-radius: 12px;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    display: flex;
+    gap: 15px;
+    position: relative;
+    transition: 0.3s ease-in-out;
+}
+.hero_btn button i{
+    font-size: 12px;
+    position: absolute;
+    top: 20px;
+    right: 15px;
+}
+.hero_btn button:hover{
+    transform: translateY(-5px);
+    background-color: #cf9c04;
+    color: white;
+}
+
+/* hero section end  */
+
+/* tickets section start  */
+.tickets_section{
+    background-color: #F4C430;
+    margin: 15px auto;
+    /* border-radius: 16px; */
+}
+
+.tickets_area{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0;
+}
+.tickets_area span{
+    color: #000102;
+    font-size: 16px;
+}
+.tickets_area h2{
+   color: #000102;
+   font-size: 60px;
+   padding-top: 10px;
+}
+
+/* tickets section end  */
