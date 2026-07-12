@@ -11,9 +11,8 @@
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
-    /* padding: 0 20px;    */
+    padding: 0 20px;    
 }
-
 /* header start  */
 
 header{
@@ -35,12 +34,12 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     font-size: 16px;
-    color: grey;
+    color: black;
     font-weight: 400;
     transition: 0.3s ease-in-out;
 }
 nav ul li a:hover{
-    color: black;
+   color: #E8BA2E;
 }
 .header_btn button{
     background-color: #E8BA2E;
@@ -60,8 +59,8 @@ nav ul li a:hover{
 
 /* hero area start  */
 
-.hero_section{
-    width: 100%;
+.hero_area{
+    width: 100%; 
     background-image: url(./images/Background.png);
     height: 100vh;
     background-position: center;
@@ -72,7 +71,7 @@ nav ul li a:hover{
     display: flex;
     align-items: center;
 }
-.hero_section::before{
+.hero_area::before{
     content: "";
     position: absolute;
     inset: 0;
@@ -113,7 +112,7 @@ nav ul li a:hover{
     font-size: 12px;
     position: absolute;
     top: 20px;
-    right: 15px;
+    right: 20px;
 }
 .hero_btn button:hover{
     transform: translateY(-5px);
@@ -124,11 +123,11 @@ nav ul li a:hover{
 
 /* tickets section start  */
 
-.tickets_section{
-    background-color: #F4C430;
+.tickets_section{ 
     margin: 15px auto;
 }
 .tickets_area{
+    background-color: #F4C430;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -149,9 +148,12 @@ nav ul li a:hover{
 
 /* cities_section start */
 
-.cities_section h2{
+.cities_section{
+    margin: 80px auto;
+}
+.exploer_text h2{
     text-align: center;
-    padding: 50px 0 30px 0;
+    padding-bottom:40px;
     font-size: 50px;
 }
 .all_cities_box{
@@ -159,20 +161,107 @@ nav ul li a:hover{
     justify-content: center;
     gap: 50px;
     margin: 30px 0;
-}
+ }
+ 
 .all_cities_box ul{
     list-style-position: inside;
 }
 .cities_text_box h2{
     font-size: 30px;
     text-align: start;
-    padding-bottom: 10px;
+    padding-bottom: 10px; 
 }
 .cities_text_box p{
     line-height: 24px;
-    padding-bottom: 15px;
+    padding-bottom: 15px; 
 }
 .cities_text_box ul li{
     line-height: 26px;
 }
+
 /* cities_section end */
+
+
+/* .matches_section start */
+ 
+.matches_section{ 
+    margin: 50px auto;
+}
+.matches_area{
+   border: 1px solid #ccc;
+    padding: 30px;
+    border-radius: 16px;
+}
+.matches_area h2{
+    font-size: 30px;
+}
+.matches_section p{
+    padding: 10px 0 20px 0;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td{
+    border: 1px solid gray;
+    padding: 15px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+}
+th, td:nth-child(1){
+    color: #A73131;
+}
+th, td:nth-child(3){
+    color: gray;
+}
+th{
+    background-color:#A73131;
+    color: white;
+}
+.opening_text{
+    color: red;
+}
+.final_text{
+    color: rgb(189, 160, 4);
+} 
+
+/* .matches_section end */
+
+/* footer start  */
+
+footer{
+    background-color: #000102;
+}
+.footer_area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+.social_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.social_icon i{
+    background-color: white;
+    color: #000102;
+    transition: 0.3s;
+    padding: 15px;
+    border-radius: 16px;
+    font-size: 20px;
+}
+.social_icon i:hover{
+    color: white;
+    background-color: blue; 
+}
+.footer_text p{
+    text-align: center;
+    font-size: 14px;
+    color: gainsboro;
+    padding: 15px 0;
+}
+
+/* footer end  */
