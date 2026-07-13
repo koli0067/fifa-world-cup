@@ -143,7 +143,7 @@ nav ul li a:hover{
 /* cities_section start */
 
 .cities_section{
-    margin: 80px auto;
+    margin: 80px auto; 
 }
 .exploer_text h2{
     text-align: center;
@@ -154,7 +154,7 @@ nav ul li a:hover{
     display: flex;
     justify-content: center;
     gap: 50px;
-    margin: 30px 0;
+    margin: 30px 65px;
  }
  
 .all_cities_box ul{
@@ -182,9 +182,11 @@ nav ul li a:hover{
     margin: 50px auto;
 }
 .matches_area{
-   border: 1px solid #ccc;
+    border: 1px solid #ccc;
     padding: 30px;
     border-radius: 16px;
+    margin: 0 65px;
+
 }
 .matches_area h2{
     font-size: 30px;
@@ -307,13 +309,14 @@ footer{
     .cities_text_box ul li{
         font-size: 14px;
     }
-    .all_cities_box{
-        gap: 20px;
-    }
-    .cities_img img {
-        width: 368px;
-        height: 263px;
-    }
+     .all_cities_box{
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: left; 
+        padding-bottom: 25px;
+     }
     .social_icon i{
         font-size: 18px;
         padding:14px;
