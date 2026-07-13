@@ -238,14 +238,14 @@ footer{
     justify-content: center;
     align-items: center;
     gap: 10px;
-}
+} 
 .social_icon i{
-    background-color: white;
-    color: #000102;
-    transition: 0.3s;
+    font-size: 22px;
+    background-color: rgb(98, 98, 99);
     padding: 15px;
-    border-radius: 16px;
-    font-size: 20px;
+    border-radius: 50%;
+    color: white;
+    transition: 0.3s ease;
 }
 .social_icon i:hover{
     color: white;
